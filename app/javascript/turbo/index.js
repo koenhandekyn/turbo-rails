@@ -1,7 +1,10 @@
 import "./cable_stream_source_element"
 
-import * as Turbo from "@hotwired/turbo"
+import Turbo from "@hotwired/turbo"
 export { Turbo }
+
+import StreamActions from "@hotwired/turbo"
+export { StreamActions }
 
 import * as cable from "./cable"
 export { cable }
